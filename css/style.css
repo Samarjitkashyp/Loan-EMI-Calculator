@@ -1,0 +1,66 @@
+.lec-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.lec-container h3{
+    color: #4e73df;
+    border-left: 3px solid #4e73df;
+    padding-left: 10px;
+}
+
+.lec-form, .lec-chart {
+    flex: 1 1 300px;
+}
+
+.lec-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.lec-form input, .lec-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.lec-form button {
+    padding: 10px 20px;
+    background-color: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.lec-results {
+    margin-top: 20px;
+    /* background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px; */
+}
+
+.lec-results .lec-inner-wrap{
+    padding: 20px;
+    background-color: #4e73df;
+    border: none;
+    border-radius: 4px;
+}
+
+.lec-inner-wrap p strong {
+    color: #fff;
+}
+
+.lec-inner-wrap p span {
+    color: #fff;
+    background-color: #FF3F33;
+    padding: 5px;
+    margin-left: 20px;
+}
